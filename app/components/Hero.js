@@ -20,12 +20,12 @@ export default function Hero() {
            </div>
           
        
-        <div className=" md:ml-[75px] md:ml-[120px] ml-[20px] md:h-[600px] md:w-[1200px] w-[330px] bg-red-950 md:rounded-[80px] mx-[5px] mt-[40px] items-start pt-[5px] ">
+        {/* <div className=" md:ml-[75px] md:ml-[120px] ml-[20px] md:h-[600px] md:w-[1200px] w-[330px] bg-red-950 md:rounded-[80px] mx-[5px] mt-[40px] items-start pt-[5px] ">
           <img src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fillustration%2F19.png&w=750&q=75" className="h-auto object-cover mt-[140px]"></img>
           <div className="ml-[700px] flex flex-col mt-[-500px]">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQViUCvopaH4eY-p43jLB80TGxBs7GcvSFHLA&s" className="h-[590px] w-[600px] object-cover rounded-br-[80px] rounded-tr-[80px]"></img>
         </div>
-        </div>
+        </div> */}
         </div>
        
        
