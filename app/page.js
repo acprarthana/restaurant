@@ -1,12 +1,21 @@
-"use client";
+"use client"; 
+
+import { useRouter } from "next/navigation";
+
 
 import Hero from "./components/Hero";
 import AboutUs from "./components/AboutUs";
 import FoodCard from "./components/FoodCard";
 import Button from "./components/Button";
 import Footer from "./components/Footer";
+import BlogSection from "./components/BlogSection";
+import Popular from "./components/Popular";
+import Combo from "./components/Combo";
+import Promo from "./components/Promo";
+
 
 export default function Home() {
+   const router = useRouter();
   const food = [
     {
       name: "Hamburger",
@@ -45,12 +54,8 @@ export default function Home() {
   return (
     <div className="w-full min-h-screen dark:bg-zinc-900 bg-zinc-50">
       <Hero />
-      <div className=" md:ml-[75px] md:ml-[120px] ml-[20px] md:h-[600px] md:w-[1200px] w-[330px] bg-red-950 md:rounded-[80px] mx-[5px] mt-[40px] items-start pt-[5px] ">
-          <img src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fillustration%2F19.png&w=750&q=75" className="h-auto object-cover mt-[140px]"></img>
-          <div className="ml-[700px] flex flex-col mt-[-500px]">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQViUCvopaH4eY-p43jLB80TGxBs7GcvSFHLA&s" className="h-[590px] w-[600px] object-cover rounded-br-[80px] rounded-tr-[80px]"></img>
-        </div>
-        </div>
+     
+
       <AboutUs />
       <div className="w-full min-h-screen dark:bg-zinc-800 bg-zinc-100">
         <div className="flex flex-col justify-center items-center">
@@ -101,7 +106,18 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className = "mt-[100px]">
+      <Popular />
+      </div>
+      <Combo />
+      <Promo />
+     
+      <BlogSection />
+      <div className = "mt-[100px]">
       <Footer />
+   </div>
+      
+      
     </div>
   );
 }

@@ -19,7 +19,7 @@ export default function AboutUs() {
      </div>
    </div>
     <div className="md:ml-[80px] ml-[30px] md:w-[35%] flex flex-col ">
-      <p className="text-black text-lg text-gray-600 dark:text-white mt-[50]">New had happen unable uneasy. Drawings can followed improved out sociable not. Earnestly so do instantly pretended. See general few civilly amiable pleased account carried. Excellence projecting is devonshire dispatched remarkably on estimating</p>
+      <p className="text-black text-lg text-gray-600 dark:text-white mt-[50] p-8">New had happen unable uneasy. Drawings can followed improved out sociable not. Earnestly so do instantly pretended. See general few civilly amiable pleased account carried. Excellence projecting is devonshire dispatched remarkably on estimating</p>
      
    <div className="flex flex-col items-center mt-[30px] space-y-[30px]">
   <div className="border border-gray-400 rounded-[40px] flex flex-row items-center justify-center h-[200px] w-[400px] relative p-6">
@@ -34,7 +34,7 @@ export default function AboutUs() {
       <p className="text-gray-600 dark:text-white mt-2">Excellence projecting is devonshire dispatched remarkably on estimating.</p>
     </div>
   </div>
-  <div className="border border-gray-400 rounded-[40px] flex flex-row items-center justify-center h-[200px] w-[400px] relative p-6">
+  <div className="border border-gray-400 rounded-[40px] flex flex-row items-center justify-center md:h-[200px] md:w-[400px] w-[400px] relative p-6">
     <div className="min-h-[80px] min-w-[80px] bg-black rounded-full flex items-center justify-center shrink-0">
       <img
         src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2F22.png&w=256&q=75"
