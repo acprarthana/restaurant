@@ -3,7 +3,6 @@
 "use client";
 import {useState } from 'react';
 import MenuCard from '../components/MenuCard';
-import Menu from "../components/Menu";
 import Section from "../components/Section"
 import Footer from '../components/Footer'; 
   const menus=[{
@@ -137,7 +136,7 @@ export default function Home() {
             <div><img className ="w-[400px] ml-[200px] hidden md:block mt-[125px]" src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fillustration%2F11.png&w=1920&q=75"/></div>
             </div>
           </div> */}
-          <Menu/>
+          <menu/>
           <Footer/>
           </div>
           </div>
