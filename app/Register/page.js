@@ -1,5 +1,6 @@
 
 "use client"
+import { useState } from "react";
 import {useRouter} from 'next/navigation';
 import Section from '../components/Section'
 import Footer from "../components/Footer"
@@ -7,7 +8,7 @@ export default function LoginPage(){
   const router = useRouter();
   return(
     <div className ="bg-zinc-100 dark:bg-black w-full min-h-screen">
-      <div><Section title="Rigester Page" title1="register" /></div>
+      <div><Section title="Register Page" title1="register" /></div>
       <div className="bg-white dark:bg-gray-800 shadow-lg shadow-gray-600 md:h-[700px] h-[1350px] rounded-xl flex md:flex-row flex-col md:mx-[100px] ">
         <div><img className="h-[700px] w-full" src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fthumb%2F14.jpg&w=1920&q=75"/></div>
         <div className="flex flex-col h-[500px] w-[500px] md:ml-[100px] mt-[76px] gap-5">
