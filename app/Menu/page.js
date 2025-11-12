@@ -90,7 +90,7 @@ export default function Menu() {
 
   <div>
     <div className="w-full min-h-screen dark:bg-zinc-800 bg-zinc-100">
-      <div><Section title="Restaurant Food Menu" title1="food menu" /></div>
+      <div className ="mb-[100px]"><Section title="Restaurant Food Menu" title1="food menu" /></div>
         <div className="flex flex-col justify-center items-center">
           <div className="text-red-700 mt-[55px]">~-------CATEGORY-------~</div>
           <div className="text-black dark:text-white text-4xl font-bold">
