@@ -13,7 +13,7 @@ export default function Navbar(){
                     <div onClick={() => router.push("reservation")} className="hidden md:block font-semibold text-md dark:text-white">Reservation</div>
                     <div onClick={() => router.push("/menu")} className="hidden md:block font-semibold text-md">Pages</div>
                     <div onClick={() => router.push("/register")}  className="hidden md:block font-semibold text-md">Register</div>
-                    <div onClick={() => router.push("/login")} className="hidden md:block font-semibold text-md">Login</div>
+                    <div onClick={() => router.push("/Login")} className="hidden md:block font-semibold text-md">Login</div>
                     <div className="hidden md:blockfont-semibold text-md">Shop</div>
                     <div className="flex items-center"></div>
                      <div className= 'md:ml-[120px] ml-[-150px]  mt-[12] rounded-full overflow-hidden bg-red-500 h-12 w-12 flex flex-row items-center justify-center'>
