@@ -88,7 +88,7 @@ export default function Home() {
   return (
 
   <div>
-    <div className="w-full min-h-screen dark:bg-zinc-800 bg-zinc-100">
+    <div className="w-full min-h-screen dark:bg-zinc-900 bg-zinc-100">
       <div className="mb-[100px]"><Section title="Restaurant Food Menu" title1="food menu" /></div>
         <div className="flex flex-col justify-center items-center">
           <div className="text-red-700 mt-[55px]">~-------CATEGORY-------~</div>
