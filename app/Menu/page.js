@@ -3,8 +3,9 @@
 "use client";
 import {useState } from 'react';
 import MenuCard from '../components/MenuCard';
-import Section from "../components/Section"
+import Section from "../components/Section";
 import Footer from '../components/Footer'; 
+import Menu from "../components/Menu";
   const menus=[{
     menuImg:"https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fthumb%2F1.jpg&w=1920&q=75",
     RatingsImg:"https://static.vecteezy.com/system/resources/previews/023/639/243/non_2x/star-illustrations-single-star-free-png.png",
