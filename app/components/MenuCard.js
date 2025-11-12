@@ -1,7 +1,7 @@
 function MenuCard({menuImg,RatingsImg, name, desc,onBuyClick}){
     return(
        
-    <div className ="flex flex-col w-[300px] h-[570px] rounded-2xl justify-around items-center dark:bg-zinc-900 bg-white  md:border-0 border shadow-sm">
+    <div className ="flex flex-col w-[300px] h-[570px] rounded-2xl justify-around items-center dark:bg-zinc-950 bg-white  md:border-0 border shadow-sm">
         <div className="w-[300px] h-[350px] justify-center dark:text-white items-center mt-[-15px] mb-[-88px]"><img className="rounded-2xl h-[250px]"src ={menuImg}/></div>
         <div className ="flex flex-row w-[250px] justify-center dark:text-white items-center h-[50px] gap-[35px]"><img className="w-[50px] h-[50px]" src={RatingsImg}/>
         <div className="font-extrabold ">5.0</div>
