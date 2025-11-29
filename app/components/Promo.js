@@ -2,7 +2,7 @@ export default function Promo() {
     return (
         <div className="bg-gray-100 dark:bg-zinc-800 flex flex-col md:flex-row justify-center items-start py-12 px-6 md:px-20 mt-[200px]">
       <div className=" relative w-full md:w-1/2 flex justify-center mt-[100px]">
-       <iframe width="652" height="506" src="https://www.youtube.com/embed/F3zw1Gvn4Mk" title="Mr Fox Restaurant Promo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="652" height="506" src="https://www.youtube.com/embed/F3zw1Gvn4Mk" title="Mr Fox Restaurant Promo Video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
       </div>
    
       
@@ -17,13 +17,13 @@ export default function Promo() {
             <span>-----------------------------------------</span>
             <span>10:00 - 09:00</span>
           </div>
-         <div className="flex justify-between pb-2">
-             <span>Wednesday to Thursday:</span>
+        <div className="flex justify-between pb-2">
+            <span>Wednesday to Thursday:</span>
               <span>------------------------------------</span>
             <span>11:30 - 10:30</span>
           </div>
           <div className="flex justify-between pb-2">
-           <span>Friday & Saturday</span>
+          <span>Friday & Saturday</span>
             <span>-----------------------------------------</span>
             <span>10:30 - 12:00</span>
           </div>

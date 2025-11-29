@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <div className="relative">
-    <footer className="bg-black dark:bg-zinc-800 text-white py-12 px-8 md:px-20 w-full md:w-[1100px] md:h-[500px]  mx-auto relative z-10 ">
+    <footer className="bg-black dark:bg-zinc-800 text-white py-12 px-8 md:px-20 w-full max-w-[1100px] md:h-[500px] mx-auto relative z-10 ">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mt-[60px]">
         <div>
           <h2 className="text-xl font-semibold mb-4">About Us</h2>
@@ -90,8 +90,11 @@ export default function Footer() {
  <div className="flex items-center gap-2">
   <img
     src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Flogo-light.png&w=750&q=75"
-   className="w-[150px] mt-[200px] ml-[100px]"/>   
- <p className="absolute ml-[800px] mt-[200px] text-white">© Copyright 2025. Restan. All Rights Reserved</p>
+  //  className="w-[150px] mt-[200px] ml-[100px]"/> 
+  className="w-[150px] mt-[200px]" />
+  
+ <p className="text-white text-center mt-[200px]">
+© Copyright 2025. Restan. All Rights Reserved</p>
 </div>
 </div>
 </div>

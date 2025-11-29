@@ -52,7 +52,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="w-full min-h-screen dark:bg-zinc-900 bg-zinc-50">
+    <div className="w-full min-h-screen dark:bg-zinc-900 bg-zinc-50 ">
       <Hero />
      
 
@@ -76,7 +76,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row w-full md:h-[500px] justify-around items-center bg-gray-900 py-10">
+      <div className="md:flex flex-row hidden  w-full h-[500px] justify-around items-center bg-gray-900 py-10">
         <div className="relative w-[600px] h-[350px] overflow-hidden rounded-2xl">
           <img
             className="rounded-2xl object-cover w-full h-full"

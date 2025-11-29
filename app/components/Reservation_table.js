@@ -1,4 +1,4 @@
-export default function eservation (){
+export default function Reservation (){
     return(
     <div>
         <div className=" md:w-[550px] md:ml-0 ml-[-45px] w-[310px] mt-5 rounded-2xl shadow-lg shadow-black text-white bg-zinc-800 ">

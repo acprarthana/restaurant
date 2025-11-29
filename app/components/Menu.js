@@ -5,18 +5,18 @@ export default function Menu(){
         <div>
         <div className ="h-[550px] bg-black">
             <div className="flex flex-row">
-                <div className ="flex flex-col w-[502px] h-[350px] mt-[100px] md:ml-[200px] ml-[11px]">
+                <div className ="flex flex-col w-[502px] h-[350px] mt-[100px] md:ml-[200px] ml-[2px]">
                 <div className ="font-semibold text-6xl text-white">30 MINUTES</div>
                 <div className ="font-semibold text-6xl text-white">DELIVERY!</div>
                 <div className ="text-gray-400 text-sm my-[37px]">A relaxing and pleasant atmosphere, good jazz, dinner, and cocktails.
-                     The Patio Time Bar opens in the center of Florence. The only bar inspired by the 1960s,
-                     it will give you a experience that youll have a hard time forgetting.</div>
-                     <button className="bg-amber-800 w-[200px] h-[50px] text-lg text-white jusitify-center items-center">Order Now</button>
+                    The Patio Time Bar opens in the center of Florence. The only bar inspired by the 1960s,
+                    it will give you a experience that youll have a hard time forgetting.</div>
+                    <button className="bg-amber-800 hover:bg-[#6e1616] w-[200px] h-[50px] text-lg text-white jusitify-center items-center">Order Now</button>
             </div>
 
 
 
-            <div><img className ="w-[400px] ml-[200px]  mt-[125px]" src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fillustration%2F11.png&w=1920&q=75"/></div>
+            <div className ="md:block hidden"><img className ="w-[400px] ml-[200px]  mt-[125px]  "src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fillustration%2F11.png&w=1920&q=75"/></div>
             </div>
         </div>
         <div className ="bg-zinc-100 dark:bg-zinc-800 hidden md:block  min-h-screen">
@@ -41,10 +41,10 @@ export default function Menu(){
                 <div className = "h-[500px]  mx-[50px] flex flex-row">
                 <div className ="flex flex-col text-white gap-6 w-1/2 mx-[55px] hidden md:block h-[400px] ">
                 {/* <div className ="flex flex-col text-white gap-6"> */}
-                    <div className=" text-2xl  font-semibold mt-[90px]">RESERVATION~~~~~~~~~~</div>
+                    <div className=" text-2xl  font-semibold mt-[90px]">RESERVATION------------------</div>
                 <div className="text-5xl font-bold ">Reservation for your Favourite Private Table</div>
-                <div className="text-sm  ">A relaxing and pleasant atmosphere, good jazz, dinner, and cocktails. The Patio Time Bar opens in the center of Florence. The only bar inspired by the 1960s, it will give you a experience that you’ll have a hard time forgetting.</div>
-                <div className ="flex flex-row w-[400px] gap-6 justify-around items-center  h-[90px] ">
+                <div className="text-md mt-[21px] ">A relaxing and pleasant atmosphere, good jazz, dinner, and cocktails. The Patio Time Bar opens in the center of Florence. The only bar inspired by the 1960s, it will give you a experience that you’ll have a hard time forgetting.</div>
+                <div className ="flex flex-row w-[400px] gap-6 justify-around items-center mt-[11px] h-[90px] ">
                     <div className ="flex flex-col ">
                         <div className ="font-semibold text-3xl">Lunch Menu</div>
                         <div className ="text-xl">30+ items</div>

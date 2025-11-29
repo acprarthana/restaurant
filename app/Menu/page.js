@@ -13,32 +13,32 @@ import Footer from '../components/Footer';
   {
     menuImg:"https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fthumb%2F2.jpg&w=1920&q=75",
     RatingsImg:"https://static.vecteezy.com/system/resources/previews/023/639/243/non_2x/star-illustrations-single-star-free-png.png",
-    name:"Pizza Slice",
+    name:"Cheeze Burger",
     desc:"Ham,Cheese and Pineapple"
   },{
     menuImg:"https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fthumb%2F3.jpg&w=1920&q=75",
     RatingsImg:"https://static.vecteezy.com/system/resources/previews/023/639/243/non_2x/star-illustrations-single-star-free-png.png",
-    name:"Pizza Slice",
+    name:"Chicken Masala",
     desc:"Ham,Cheese and Pineapple"
   },{
     menuImg:"https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fthumb%2F4.jpg&w=1920&q=75",
     RatingsImg:"https://static.vecteezy.com/system/resources/previews/023/639/243/non_2x/star-illustrations-single-star-free-png.png",
-    name:"Pizza Slice",
+    name:"Veg ROll",
     desc:"Ham,Cheese and Pineapple"
   },{
     menuImg:"https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fthumb%2F17.jpg&w=1920&q=75",
     RatingsImg:"https://static.vecteezy.com/system/resources/previews/023/639/243/non_2x/star-illustrations-single-star-free-png.png",
-    name:"Pizza Slice",
+    name:"Salmon Steak",
     desc:"Ham,Cheese and Pineapple"
   },{
     menuImg:"https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fthumb%2F19.jpg&w=1920&q=75",
     RatingsImg:"https://static.vecteezy.com/system/resources/previews/023/639/243/non_2x/star-illustrations-single-star-free-png.png",
-    name:"Pizza Slice",
+    name:"Fries",
     desc:"Ham,Cheese and Pineapple"
   },{
     menuImg:"https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fthumb%2F20.jpg&w=1920&q=75",
     RatingsImg:"https://static.vecteezy.com/system/resources/previews/023/639/243/non_2x/star-illustrations-single-star-free-png.png",
-    name:"Pizza Slice",
+    name:"Meat Ball Pasta",
     desc:"Ham,Cheese and Pineapple"
   },
   {
@@ -128,9 +128,9 @@ export default function Home() {
                 <div className ="font-semibold text-6xl text-white">30 MINUTES</div>
                 <div className ="font-semibold text-6xl text-white">DELIVERY!</div>
                 <div className ="text-gray-400 text-sm my-[36px]">A relaxing and pleasant atmosphere, good jazz, dinner, and cocktails.
-                     The Patio Time Bar opens in the center of Florence. The only bar inspired by the 1960s,
-                     it will give you a experience that you’ll have a hard time forgetting.</div>
-                     <button className="bg-amber-800 w-[200px] h-[50px] text-lg text-white jusitify-center items-center">Order Now</button>
+                    The Patio Time Bar opens in the center of Florence. The only bar inspired by the 1960s,
+                    it will give you a experience that you’ll have a hard time forgetting.</div>
+                    <button className="bg-amber-800 w-[200px] h-[50px] text-lg text-white jusitify-center items-center">Order Now</button>
             </div>
             <div><img className ="w-[400px] ml-[200px] hidden md:block mt-[125px]" src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fillustration%2F11.png&w=1920&q=75"/></div>
             </div>
